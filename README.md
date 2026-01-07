@@ -7,6 +7,13 @@ An interactive, data-driven dashboard built using **Streamlit**, **Plotly**, and
 
 This project focuses on **exploratory data analysis and visualization**, presenting insights through clean, interactive dashboards rather than predictive modeling.
 
+<p align="center">
+  <img src="https://imgs.search.brave.com/gb8rr1BRSwTrcvVhdDzNCvI7DoZFMlObtWD-ysl3YnI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc3Bv/dGlmeS1uZW9uLWdy/ZWVuLXN3OHRkNDUz/dWg0MGswajcuanBn"
+       alt="spotify_banner"
+       width="400"/>
+</p>
+
+
 ---
 
 ## 📌 Project Overview
@@ -175,6 +182,75 @@ The Streamlit application is divided into the following sections:
 
 ---
 
+## 📸 Dashboard Screenshots
+
+> Below are selected screenshots highlighting key analytics and visualizations from the Spotify Music Analytics Dashboard.
+
+### 🧭 Overview
+
+High-level summary of dataset coverage, average popularity, and yearly aggregated audio features.
+
+
+![Overview Dashboard](screenshots/overview.jpg)
+
+
+---
+
+### 📈 Music Trends Over Time
+
+Visualizes how core audio features such as danceability and energy evolve across years.
+
+![Music Trends](screenshots/music_trends1.jpg)
+
+![Music Trends](screenshots/music_trends2.jpg)
+
+---
+
+### 🎼 Audio Feature Intelligence
+
+PCA-based visualization showing how songs cluster in audio feature space, colored by popularity.
+
+
+![Audio Feature PCA](screenshots/audio_features1.jpg)
+
+![Audio Feature PCA](screenshots/audio_features2.jpg)
+
+
+---
+
+### 🎧 Genre Insights
+
+Genre-wise comparison of audio features using bar charts, box plots, and pie charts.
+
+
+![Genre Insights](screenshots/genre_insights1.jpg)
+
+![Genre Insights](screenshots/genre_insights2.jpg)
+
+![Genre Insights](screenshots/genre_insights3.jpg)
+
+
+---
+
+### 🔥 Chart vs Non-Chart Analysis
+
+Comparison between chart-topping and non-charting songs across multiple audio features.
+
+![Chart vs Non-Chart](screenshots/chart1.jpg)
+
+![Chart vs Non-Chart](screenshots/chart2.jpg)
+
+---
+
+## 📝 Note on Screenshots
+
+* Screenshots were captured directly from the Streamlit application
+* Images are stored inside a `/screenshots` directory in the repository
+* Each image corresponds to a specific dashboard section
+
+---
+
+
 ## 🛠️ Tech Stack
 
 ### Programming & Analysis
@@ -260,3 +336,4 @@ This project is designed as a **portfolio-focused analytics application**, empha
 * Professional UI/UX
 
 ---
+
